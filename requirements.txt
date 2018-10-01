@@ -39,5 +39,3 @@ pyparsing==2.0.3
 scipy==0.17.0
 SOAPpy==0.12.22
 Unidecode==0.4.19
-wxPython==3.0.2.0
-wxPython-common==3.0.2.0
