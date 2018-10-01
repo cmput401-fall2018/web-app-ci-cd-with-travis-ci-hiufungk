@@ -1,2 +1,2 @@
 def test_sameple():
-    assert true
+    assert True
