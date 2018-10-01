@@ -36,17 +36,8 @@ pycrypto==2.6.1
 PyOpenGL==3.0.2
 pyOpenSSL==0.15.1
 pyparsing==2.0.3
-python-apt==1.1.0b1+ubuntu0.16.4.2
-python-dateutil==2.4.2
-python-snappy==0.5
-roman==2.0.0
 scipy==0.17.0
-SciTools==0.9.0
-service-identity==16.0.0
-simplegeneric==0.8.1
-six==1.10.0
 SOAPpy==0.12.22
-stevedore==1.12.0
 Unidecode==0.4.19
 vboxapi==1.0
 virtualenv==15.0.1
