@@ -1,7 +1,6 @@
 attrs==15.2.0
 autobahn==0.10.3
 beautifulsoup4==4.4.1
-bsddb3==6.1.0
 catkin-pkg==0.3.6
 catkin-pkg-modules==0.3.6
 chardet==2.3.0
