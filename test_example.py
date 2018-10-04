@@ -1,2 +1,3 @@
-def test_function():
-	return True
+def test_sameple():
+    assert True
+
