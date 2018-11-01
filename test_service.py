@@ -24,9 +24,13 @@ class TestService(TestCase):
         self.assertEqual(self.service.abs_plus(0), 1)
         self.assertEqual(self.service.abs_plus(1), 2)
     
-    @patch("service.Service.bad_random", return_value=10)    
+    @patch("service.Service.bad_random")    
     def test_complicated_function(self, mock_bad_random):
+        mock_bad_random.return_value = 10
         rv1, rv2 = self.service.complicated_function(2)
         self.assertEqual(rv1, 5)
         self.assertEqual(rv2, 0)
-       
+        mock_bad_random.return_value = 11
+        rv1, rv2 = self.service.complicated_function(2)
+        self.assertEqual(rv1, 5.5)
+        self.assertEqual(rv2, 1)       
