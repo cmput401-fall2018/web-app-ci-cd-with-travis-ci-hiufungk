@@ -1,1 +1,11 @@
+funcsigs==1.0.2
+gyp==0.1
 heat-cfntools==1.4.2
+mock==2.0.0
+pbr==5.1.0
+pycurl==7.43.0
+python-apt==1.1.0b1+ubuntu0.16.4.2
+selenium==3.141.0
+six==1.11.0
+urllib3==1.24
+virtualenv==16.0.0
