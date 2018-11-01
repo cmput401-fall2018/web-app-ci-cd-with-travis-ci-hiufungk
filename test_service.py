@@ -18,11 +18,22 @@ class TestService(TestCase):
             self.assertEqual(True, False)
         except:
             self.assertEqual(True, True)
+        try:
+            self.service.divide("sghf")
+            self.assertEqual(True, False)
+        except:
+            self.assertEqual(True, True)
 
     def test_abs_plus(self):
         self.assertEqual(self.service.abs_plus(-1), 2)
         self.assertEqual(self.service.abs_plus(0), 1)
         self.assertEqual(self.service.abs_plus(1), 2)
+        try:
+            self.service.abs_plus("jksdfhhdfbd")
+            self.assertEqual(True, False)
+        except:
+            self.assertEqual(True, True)
+        
     
     @patch("service.Service.bad_random")    
     def test_complicated_function(self, mock_bad_random):
